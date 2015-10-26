@@ -1,0 +1,151 @@
+@charset "utf-8";
+.inp {
+    outline: 0;
+    min-height: 20px;
+    line-height: 20px;
+    padding: 5px 10px;
+    min-width: 100px;
+    font-size: 13px;
+    background: #fff;
+    color: #555;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 95%;
+}
+.inp:focus {
+    outline: 0
+}
+.inp::-moz-placeholder {
+    color: #ccc;
+    opacity: 1
+}
+.inp:-ms-input-placeholder {
+    color: #ccc
+}
+.inp::-webkit-input-placeholder {
+    color: #ccc
+}
+.inp[disabled] {
+    opacity: .6;
+    cursor: default
+}
+
+
+
+input.inp-left {
+    border-radius: 4px 0 0 4px!important
+}
+input.inp-right {
+    border-radius: 0 4px 4px 0!important
+}
+input.inp-left-right,
+input.inp-right-left {
+    border-radius: 0!important
+}
+
+/*
+*
+*   colour mods
+*/
+
+.inp.inp-blue-alt,
+.inp.inp-blue-alt:hover {
+    border-color: #66afe9 !important;
+}
+.inp.inp-blue:focus,
+.inp.inp-blue.active,
+.inp.inp-blue-alt:focus,
+.inp.inp-blue-alt:active{
+    border-color: #66afe9!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)!important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)!important;
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)!important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+.inp.inp-green:focus,
+.inp.inp-green.active,
+.inp.inp-green-alt {
+    border-color: #1fa67b!important
+}
+input.inp.inp-green.active,
+input.inp.inp-green-alt.active,
+input.inp.inp-green:focus,
+input.inp.inp-green-alt:focus {
+    border-color: #1fa67b!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 233, 143, .6)!important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 233, 143, .6)!important;
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 233, 143, .6)!important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 233, 143, .6)!important
+}
+.inp.inp-red-alt,
+.inp.inp-red-alt:hover {
+    border-color: #dd4f39!important
+}
+input.inp.inp-red.active,
+input.inp.inp-red-alt.active,
+input.inp.inp-red:focus,
+input.inp.inp-red-alt:focus {
+    border-color: #dd4f39!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(233, 102, 102, .6)!important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(233, 102, 102, .6)!important;
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(233, 102, 102, .6)!important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(233, 102, 102, .6)!important
+}
+
+
+/*
+*field css 
+*
+*/
+
+
+.field{
+    min-width: 345px;
+}
+
+.field.with-info input.inp{
+    max-width: 75% !important;
+    display: inline-block;
+    margin-left: 0  ;
+    margin-right: 0  ;
+
+}
+.field .field-inp-info{
+    max-width: 10% !important;
+    display: inline-block;
+    
+}
+
+
+
+.field-inp-info{
+    background: #eee;
+    padding: 4px;
+    font-size: 12px;
+    vertical-align: middle;
+    min-width: 35px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #333;
+    line-height: 20px;
+}
+
+.field-inp-info.left{
+    border-radius: 3px 0 0 3px;
+    border-right: 0;
+    margin: 0 -5px  !important;
+}
+.field-inp-info.right{
+    border-radius:  0 3px  3px 0;
+    border-left: 0;
+    margin: 0 -4px !important;
+}

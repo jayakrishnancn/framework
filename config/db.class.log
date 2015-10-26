@@ -1,0 +1,20 @@
+
+/*
+	//  $db= new Db("test12");//created obj;[1]  " Dbname "
+	
+	//	$db->CreateDb("hii");//create Db[1]
+
+	//  $db->CreateConn( "localhost","root","","test12");//start connection [1]
+
+	// $db->Query($sql);//Query creation [1]
+
+	//	$result=$db->SELECT(table,Query);//SELECT QUERY [1]
+
+  	//  $db->Delete("table1"," WHERE id=5 ");// Delete table row where id =5 [1]
+
+	//  $db->TruncTable("table1");//Trancate table [1]
+
+	//  $db->DropTable("table1");//Drop table [1]
+
+	// DistroyThis($db);[1]
+/*/

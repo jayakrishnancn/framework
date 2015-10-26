@@ -1,0 +1,73 @@
+.dropdown-menu {
+    text-align: left;
+    color: #333;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 70px;
+    list-style: none;
+    min-width: 150px;
+    border-radius: 4px;
+    padding: 5px 0;
+    outline: none;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.dropdown-menu li {
+    list-style: none;
+    border: none;
+    display: block;
+}
+.dropdown-menu li.divider {
+    border: none;
+    height: 1px;
+    background: #eee;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    display: block;
+}
+.dropdown-menu li a {
+    padding: 5px 10px;
+    display: block;
+    color: #888;
+    text-decoration: none;
+    border: 1px solid transparent;
+    outline: none;
+}
+.dropdown-menu.blue li a:hover,
+.dropdown-menu.blue li a.active,
+.dropdown-menu.blue li a:focus ,
+.dropdown-menu.blue li a:active  {
+    background: #4787ed;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.dropdown-menu.teal li a:hover,
+.dropdown-menu.teal li a.active,
+.dropdown-menu.teal li a:focus ,
+.dropdown-menu.teal li a:active  {
+    background: teal;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.dropdown-menu.red li a:hover,
+.dropdown-menu.red li a:focus ,
+.dropdown-menu.red li a.active,
+.dropdown-menu.red li a:active  {
+    background: #dd4f39;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.dropdown-menu.green li a:hover,
+.dropdown-menu.green li a:focus ,
+.dropdown-menu.green li a.active,
+.dropdown-menu.green li a:active  {
+    background: #26c794;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

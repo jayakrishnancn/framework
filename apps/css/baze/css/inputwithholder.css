@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* input with holder */
+
+.inputholder {
+    padding: 1px 10px !important;
+    vertical-align: middle;
+    cursor: text !important;
+}
+.inputholder input {
+    display: inline-block;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 120px;
+    font-size: 14px;
+    line-height: 15px;
+    width: 20px;
+    cursor: text;
+    height: 28px;
+    vertical-align: middle;
+}
+.inputholder .tag {
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 2px;
+    background: #4288f4;
+    color: white;
+    text-align: center;
+    padding: 3px 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: 1px solid #004FC8;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    height: 18px;
+}
+.inputholder .tag span {
+    max-width: 25px;
+    background: #297BF9;
+    color: #eee;
+    padding: 0 5px;
+    display: inline-block;
+    margin: 1px 0 0 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    border-radius: 0;
+    border: 1px solid #0034CF;
+    cursor: pointer;
+}
+.inputholder .tag span:hover {
+    background: #004FC8;
+    color: #fff;
+}

@@ -1,0 +1,55 @@
+.progress-bar .bar{
+	min-height: 15px;
+	line-height: 15px;
+	font-size: 12px; 
+	max-width: 100%;
+	-moz-transition:.8s;
+	-webkit-transition:.8s;
+	transition:.1s;
+}
+
+.progress-bar .bar-text{
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	line-height: 15px;
+	font-size: 12px;
+	position: absolute;
+}
+ .progress-bar{
+ 	width:100%;
+ 	overflow: hidden;
+ 	text-align: center;
+ 	min-height: 15px;
+ 	background-color:#f0f0f0;
+ 	box-shadow:inset 0 0px 5px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow:inset 0 0px 5px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow:inset 0 0px 5px rgba(0, 0, 0, 0.39); 
+}
+ .progress-bar .bar.stripe{
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+ .progress-bar .bar.red{
+ 	background-color: #dd4f39;
+ 	color: #fff;
+ }
+ .progress-bar .bar.blue{
+ 	background-color: #337ab7;
+ 	color: #fff;
+ }
+ .progress-bar .bar.black{
+ 	background-color: #444;
+ 	color: #fff;
+ }
+ .progress-bar .bar.green{
+ 	background-color: #1fa67b;
+ 	color: #fff;
+ }
+ .progress-bar .bar.orange{
+ 	background-color: #f0ad4e;
+ 	color: #fff;
+ }

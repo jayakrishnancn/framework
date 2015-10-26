@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*button set (btn )*/ 
+.btn{
+    display: inline-block;
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    color: #444;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; 
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.btn[disabled],.btn[disabled]:active,.btn[disabled]:hover{opacity:.6!important;cursor:default!important;background:  !important;}
+
+.btn-blue2-link,.btn-blue2-link:hover,.btn-blue2-link-alt,.btn-blue2-link-alt:hover,
+.btn-teal-link,.btn-teal-link:hover,.btn-teal-link-alt,.btn-teal-link-alt:hover,
+.btn-black-link,.btn-black-link-alt:hover,.btn-blue-link,.btn-blue-link-alt:hover,.btn-green-link,.btn-green-link-alt:hover,.btn-orange-link,.btn-orange-link-alt:hover,.btn-red-link,.btn-red-link-alt:hover,.btn-white-link,.btn-white-link-alt:hover{background:transparent;color:#666;text-decoration:none;border:1px solid transparent;}
+
+/* white */
+.btn-white,.btn-white-alt:hover,.btn-white-link-alt,.btn-white-link:hover{background:#f5f5f5;color:#666;border:1px solid;border-color:#cfcfcf;}
+.btn-white-alt,.btn-white:hover{background:#f9f9f9;color:#222;border:1px solid;border-color:#aaa #aaa #a0a0a0;}
+.btn-white-alt:active,.btn-white-alt:focus,.btn-white-link-alt:active,.btn-white-link-alt:focus,.btn-white-link:active,.btn-white-link:focus,.btn-white:active,.btn-white:focus{background:#f9f9f9!important;color:#222!important;border:1px solid!important;border-color:#4787ed!important;}
+
+/*red*/
+.btn-red,.btn-red-alt:hover,.btn-red-link-alt,.btn-red-link:hover{background:#d14836;border:1px solid #bd4431;color:#fff;outline:transparent solid 1px;}
+.btn-red-alt,.btn-red:hover{background:#eb513d;color:#fff;border:1px solid #bd4431;outline:transparent solid 1px;}
+.btn-red-alt:active,.btn-red-alt:focus,.btn-red-link-alt:active,.btn-red-link-alt:focus,.btn-red-link:active,.btn-red-link:focus,.btn-red:active,.btn-red:focus{background:#eb513d;color:#fff;border:1px solid #fff;outline:#bd4431 solid 1px;}
+
+/*blue*/
+.btn-blue,.btn-blue-alt:hover,.btn-blue-link-alt,.btn-blue-link:hover{background:#4d90fe;border:1px solid #3079ed;color:#fff;outline:transparent solid 1px;}
+.btn-blue-alt,.btn-blue:hover{background:#4787ed;color:#fff;border:1px solid #566e92;outline:transparent solid 1px;}
+.btn-blue-alt:active,.btn-blue-alt:focus,.btn-blue-link-alt:active,.btn-blue-link-alt:focus,.btn-blue-link:active,.btn-blue-link:focus,.btn-blue:active,.btn-blue:focus{outline:#566e92 solid 1px;background:#4787ed!important;color:#fff!important;border:1px solid #fff!important;}
+
+/*green*/
+.btn-green,.btn-green-alt:hover,.btn-green-link-alt,.btn-green-link:hover{background:#1fa67b;border:1px solid #187658;color:#fff;outline:transparent solid 1px;}
+.btn-green-alt,.btn-green:hover{background:#26c794;color:#fff;border:1px solid #1fa67b;outline:transparent solid 1px;}
+.btn-green-alt:active,.btn-green-alt:focus,.btn-green-link-alt:active,.btn-green-link-alt:focus,.btn-green-link:active,.btn-green-link:focus,.btn-green:active,.btn-green:focus{background:#26c794;color:#fff;border:1px solid #fff;outline:#1fa67b solid 1px;}
+
+/*orange*/
+.btn-orange,.btn-orange-alt:hover,.btn-orange-link-alt,.btn-orange-link:hover{background:#FC8D20;border:1px solid #E44500;color:#fff;outline:transparent solid 1px;}
+.btn-orange-alt,.btn-orange:hover{background:#FFBA76;color:#fff;border:1px solid #E44500;outline:transparent solid 1px;}
+.btn-orange-alt:active,.btn-orange-alt:focus,.btn-orange-link-alt:active,.btn-orange-link-alt:focus,.btn-orange-link:active,.btn-orange-link:focus,.btn-orange:active,.btn-orange:focus{background:#FF8000;color:#fff;border:1px solid #fff;outline:#FF8000 solid 1px;}
+
+/*black*/
+.btn-black,.btn-black-alt:hover,.btn-black-link-alt,.btn-black-link:hover{background:#333;border:1px solid #444;color:#fff;outline:transparent solid 1px;}
+.btn-black-alt,.btn-black:hover{background:#3f3f3f;color:#fff;border:1px solid #4f4f4f;outline:transparent solid 1px;}
+.btn-black-alt:active,.btn-black-alt:focus,.btn-black-link-alt:active,.btn-black-link-alt:focus,.btn-black-link:active,.btn-black-link:focus,.btn-black:active,.btn-black:focus{background:#4f4f4f;color:#fff;border:1px solid #fff;outline:#4f4f4f solid 1px;}
+/*
+*
+*       secondary
+*
+*/
+/*blue2 */
+.btn-blue2,.btn-blue2-alt:hover,.btn-blue2-link-alt,.btn-blue2-link:hover{background:#245580;border:1px solid #337ab7;color:#fff;outline:transparent solid 1px;}
+.btn-blue2-alt,.btn-blue2:hover{background:#337ab7;color:#fff;border:1px solid #245580;outline:transparent solid 1px;}
+.btn-blue2-alt:active,.btn-blue2-alt:focus,.btn-blue2-link-alt:active,.btn-blue2-link-alt:focus,.btn-blue2-link:active,.btn-blue2-link:focus,.btn-blue2:active,.btn-blue2:focus{background:#337ab7;color:#fff;border:1px solid #fff;outline:#245580 solid 1px;}
+
+/*teal */
+.btn-teal,.btn-teal-alt:hover,.btn-teal-link-alt,.btn-teal-link:hover{background:#008080;border:1px solid #025D5D;color:#fff;outline:transparent solid 1px;}
+.btn-teal-alt,.btn-teal:hover{background:#008080;color:#fff;border:1px solid #025D5D;outline:transparent solid 1px;}
+.btn-teal-alt:active,.btn-teal-alt:focus,.btn-teal-link-alt:active,.btn-teal-link-alt:focus,.btn-teal-link:active,.btn-teal-link:focus,.btn-teal:active,.btn-teal:focus{background:#008080;color:#fff;border:1px solid #fff;outline:#025D5D solid 1px;}
